@@ -1,0 +1,710 @@
+/* navbar - დასაწყისი */
+
+body{
+    padding: 0px;
+    margin:  0px;
+    background-image: linear-gradient(to right, #000000, #121112, #1c1c1f, #25282b, #2d3436);  
+}
+form{
+  flex-wrap: wrap;
+}
+.container-fluid{
+    width: 70% !important;
+}
+.navbar-nav{
+    display: flex !important;
+    justify-content: center !important;
+}
+.form-control{
+    border-radius: 20px !important;
+    width: 250px !important;
+    margin: 0px !important;
+}
+.navbar{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background: url(https://www.plex.tv/wp-content/uploads/2024/01/Watch-Free-Hero-2048x1152-3-1440x810.png);
+    padding: 18px 0px !important;
+    border-radius: 0px !important;
+}
+.dropdown-item{
+    color: black !important ;
+    font-weight: 500!important;
+}
+
+.nav-link {
+    color: rgb(202, 196, 196) !important ;
+    font-weight: 500!important;
+    margin: 0px 7px !important;
+    border-bottom: 1px black;
+}
+.nav-link:hover{
+    border-bottom:  1px solid #ff0000;
+    transition: 0.3s;
+    color: white !important;
+}
+.MainText{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+.MainText::first-letter{
+    font-size: 45px;
+    color:  rgb(197, 13, 13);
+}
+.navbar-toggler{
+  background-color: #f7ba2b;
+  border-radius: 15px;
+}
+
+/* რეგისტრაცისს დასაწყისი */
+.login {
+    --c: #fff;
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+      #f4ab01;
+    color: #0000;
+    border: none;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+    text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+      calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+  }
+  
+  .login:hover,
+  .login:focus-visible {
+    --_p: 0%;
+    --_i: 1;
+  }
+  
+  .login:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q #0005;
+    transition: 0s;
+  }
+  
+  .login {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0;
+    cursor: pointer;
+    padding: .1em .3em;
+  }
+/* რეგისტრაცის დასასრული
+
+სერჩის დასაწყისი */
+  
+.container {
+    position: relative;
+    box-sizing: border-box;
+    width: fit-content;
+  }
+  
+  .mainbox {
+    box-sizing: border-box;
+    position: relative;
+    width: 230px;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    background-color: rgb(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+  }
+  
+  .checkbox:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .checkbox:checked {
+    right: 10px;
+  }
+  
+  .checkbox:checked ~ .mainbox {
+    width: 40px;
+    background-color: transparent;
+  }
+  
+  .checkbox:checked ~ .mainbox .search_input {
+    width: 0;
+    height: 0px;
+  }
+  
+  .checkbox:checked ~ .mainbox .iconContainer {
+    padding-right: 10px;
+  }
+  
+  .checkbox {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    z-index: 9;
+    cursor: pointer;
+    appearance: none;
+  }
+  
+  .search_input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .search_input::placeholder {
+    color: rgba(255, 255, 255, 0.776);
+  }
+  
+  .iconContainer {
+    box-sizing: border-box;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  
+  .search_icon {
+    box-sizing: border-box;
+    fill: white;
+    font-size: 1.2em;
+  }
+
+  /* სერჩის დასასრული */
+  
+/* navbar - დასასრული */
+
+/*  carousel დასაწყისი*/
+
+.h3M,.h3M2,.h3M3,.h3M4{
+    color: white;
+    margin: 0px;
+    font-size: 21px;
+     font-family: 'Times New Roman', Times, serif;
+}
+.titleM,.titleM2,.titleM3,.titleM4{
+    display: flex;
+    width: 71%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.MotherDiv,.MotherDiv2,.MotherDiv3,.MotherDiv4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.MainCarusel,.MainCarusel2,.MainCarusel3,.MainCarusel4{
+    width: 71% !important; 
+    border-radius: 10px  !important;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.MotherDiv4{
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-image: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.703)), url(https://c4.wallpaperflare.com/wallpaper/931/11/696/dragon-ball-super-saiyan-blue-dragon-ball-super-vegeta-wallpaper-preview.jpg);
+  
+}
+.owl-nav{
+    color: white;
+    font-size: 30px;
+    margin: 0px !important;
+}
+
+.Ctitle{
+    color: white;
+    font-size: 17px;
+    padding: 7px 3px;
+    margin: 0px;
+}
+.Rating{
+color: white;
+font-size: 13px;
+padding: 3px;
+margin: 0px;
+font-weight: 600;
+}
+.Imdb{
+    display: flex;
+    align-items: center;
+    
+}
+.IMDB{
+    background-color: rgb(214, 181, 16);
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+
+.item{
+    padding: 3px;
+}
+.cardImg{
+    cursor: pointer;
+
+}
+.cardImg:hover{
+    --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    padding: 5px;
+    overflow: visible;
+    background: #f7ba2b;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* people html დასაწყისი */
+
+
+.cardP {
+    box-sizing: border-box;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .cardP:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .cardP:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  .card-img-top{
+    border-radius: 5px;
+    
+  }
+  .card-title{
+    padding: 3px;
+    font-weight: 600;
+  }
+  .card-title:hover{
+    color: #ffffff;
+  }
+
+.MainPeople{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(178.6deg, rgb(25, 37, 45) 11.8%, rgb(47, 58, 71) 83.8%);
+   }
+.PeopleDiv{
+    width: 71%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.ActorTitle{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+  width: 72%;
+}
+.TitlePeople{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* anime html page */
+
+.cardA {
+  box-sizing: border-box;
+  backdrop-filter: blur(6px);
+  border-radius: 5px;
+  text-align: start;
+  cursor: pointer;
+  transition: all 0.5s;
+  user-select: none;
+  color: black;
+  padding-bottom: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cardA:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.cardA:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.card-img-top{
+  border-radius: 5px;
+  
+}
+.card-titleA{
+  padding: 5px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+}
+.card-titleA:hover{
+  color: #f4ab01;
+}
+.card-textA{
+  color: #000000;
+  background-color: #f4ab01;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px;
+}
+.card-Score{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin: 0px;
+  padding-left: 10px;
+
+}
+.AnimeImdb{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-textA:hover{
+  color: #ffffff;
+}
+
+.MainAnime{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(178.6deg, rgb(23, 29, 36) 11.8%, rgb(48, 59, 71) 83.8%);
+ }
+.AnimeDiv{
+  width: 71%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.AnimeTitle{
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  width: 72%;
+}
+.PageTitle{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* საიტის დასასრული */
+
+.containerEnd{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+}
+.LastDiv{
+  width: 72%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.socials-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+.social {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgb(194, 194, 194);
+}
+.twitter:hover {
+  background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+}
+.facebook:hover {
+  background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+}
+.google-plus:hover {
+  background: linear-gradient(45deg, #872419, #db4a39, #ff7061);
+}
+.instagram:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.social svg {
+  fill: white;
+  height: 20px;
+}
+.socialContact{
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.socialContact:hover{
+  color: #f09433;
+}
+
+/* feedback */
+
+.messageBox {
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2d2d;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(63, 63, 63);
+}
+.messageBox:focus-within {
+  border: 1px solid rgb(110, 110, 110);
+}
+.fileUploadWrapper {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#file {
+  display: none;
+}
+.fileUploadWrapper label {
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.fileUploadWrapper label svg {
+  height: 18px;
+}
+.fileUploadWrapper label svg path {
+  transition: all 0.3s;
+}
+.fileUploadWrapper label svg circle {
+  transition: all 0.3s;
+}
+.fileUploadWrapper label:hover svg path {
+  stroke: #fff;
+}
+.fileUploadWrapper label:hover svg circle {
+  stroke: #fff;
+  fill: #3c3c3c;
+}
+.fileUploadWrapper label:hover .tooltip {
+  display: block;
+  opacity: 1;
+}
+.tooltip {
+  position: absolute;
+  top: -40px;
+  display: none;
+  opacity: 0;
+  color: white;
+  font-size: 10px;
+  text-wrap: nowrap;
+  background-color: #000;
+  padding: 6px 10px;
+  border: 1px solid #3c3c3c;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.596);
+  transition: all 0.3s;
+}
+#messageInput {
+  width: 200px;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  color: white;
+}
+#messageInput:focus ~ #sendButton svg path,
+#messageInput:valid ~ #sendButton svg path {
+  fill: #3c3c3c;
+  stroke: white;
+}
+
+#sendButton {
+  width: fit-content;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#sendButton svg {
+  height: 18px;
+  transition: all 0.3s;
+}
+#sendButton svg path {
+  transition: all 0.3s;
+}
+#sendButton:hover svg path {
+  fill: #3c3c3c;
+  stroke: white;
+}
+/* 
+owner */
+.owner{
+  display: flex;
+  justify-content: flex-start;
+  width: 71%;
+}
+.ownerText{
+  color: white;
+}
+.ownerP{
+  color: #f09433;
+}
+
+/* ფილტრის ფაიჯის დასაწყისი */
+
+.MainSelector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Selector{
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.FilterDiv{
+  padding: 30px 0px;
+}
+.btnSearch{
+  background-color: #0172f4;
+  color: white;
+  border: none;
+  padding: 6px 13px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btnSearch:hover{
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+
+}
+.Filter{
+  padding: 5px 17px ;
+  border-radius: 5px;
+  border: none;
+  color: #000;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cardF{
+  padding: 10px;
+  transition: 0.3s;
+}
+.cardF:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.card-titleF{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+
+
+
+
+   
+
+
+
+  
